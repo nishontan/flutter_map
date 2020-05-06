@@ -17,7 +17,10 @@ dependencies:
   transparent_image: ^1.0.0
   async: ^2.1.0
   flutter_image: ^2.0.0
-  cached_network_image: ^1.1.0
+  cached_network_image:
+    git:
+      url: git@github.com:naxa-developers/flutter_cached_network_image.git
+      ref: develop
   sqflite: ^1.1.5
   path_provider: ^1.1.0
   vector_math: ^2.0.0
